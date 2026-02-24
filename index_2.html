@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <style>
+        .cardc{
+            display: flex;
+            gap: 10px; 
+            flex-wrap: wrap; 
+            margin: 20px;
+        }
+
+        .card{
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 28px;
+            white-space: nowrap; 
+        }
+
+        .black{
+            color: #000;
+            background-color: #f0f0f0;
+        }
+
+        .red{
+            color: #C00;
+            background-color: #ffe6e6;
+        }
+
+        h1{
+            margin: 20px 16px;
+            color: #333;
+        }
+
+        p{
+            margin: 20px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Card Game:</h1>
+
+    <p>Player 1:</p>
+    <div class="cardc">
+        <span class="card black">2♣</span>
+        <span class="card red">9♥</span>
+        <span class="card red">6♥</span>
+        <span class="card red">A♦</span>
+        <span class="card black">Q♠</span>
+        <span class="card black">J♣</span>
+    </div>
+
+    <p>Player 2:</p>
+    <div class="cardc">
+        <span class="card red">3♥</span>
+        <span class="card black">A♣</span>
+        <span class="card black">10♣</span>
+        <span class="card red">K♦</span>
+        <span class="card black">8♠</span>
+        <span class="card red">3♥</span>
+    </div>
+</body>
+</html>
